@@ -18,13 +18,15 @@ public class Main
 	    Scanner sc=new Scanner(System.in);
 
 	    SimpleDateFormat formatter=new SimpleDateFormat("yyyy-MM-dd");
-	    String first="2019-01-01";
-	    String second="2019-01-04";
+	     String first=sc.next();
+	    int f=sc.nextInt();
+	    String second=sc.next();
+	    int s=sc.nextInt();
 	    Dictionary geek = new Hashtable();
 
         // put() method
-        geek.put(first,100);
-        geek.put(second,145);
+        geek.put(first,f);
+        geek.put(second,s);
 try
 {	    Date d1 = formatter.parse(first);
 			Date d2 = formatter.parse(second);
