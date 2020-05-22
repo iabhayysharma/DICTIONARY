@@ -35,7 +35,7 @@ try
 			long diffDays = diff / (24 * 60 * 60 * 1000);
 
 		System.out.println("total days: "+diffDays);
-		int arr[]=new int[5];
+		int arr[]=new int[2];
 		int count=0;
 
 // 	        Enumeration enu = geek.elements();
@@ -49,6 +49,7 @@ try
           count++;
         }
 
+Arrays.sort(arr);
 
         int dif=arr[--count]-arr[0];
         int e=arr[0];
