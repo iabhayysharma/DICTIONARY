@@ -1,7 +1,7 @@
 # DICTIONARY
 MADE IF TWO DICTIONARY ELEMENTS ARE INPUT
 
-test cases
+test cases(press enter after each input)
 
 
 2019-01-01
